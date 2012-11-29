@@ -48,6 +48,5 @@ void NetworkRxCallback(void);
 
 
 //Prototipos Publicos
-void Init_uMac(uMac_nodeType/*, uint8_tuMac_txCallBack,uMac_rxCallBack*/);
-void uMac_Engine(void);
-
+void Init_uMac (void /*uMac_nodeType, uint8_tuMac_txCallBack,uMac_rxCallBack*/);
+void uMac_Engine (void);
